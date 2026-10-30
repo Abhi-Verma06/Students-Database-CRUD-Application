@@ -400,3 +400,4 @@ def test_ai_ask_endpoint_born_after_fallback():
     data = response.json()
     assert data["retrieved_records_count"] == 2
     assert "Young Student" in data["answer"]
+

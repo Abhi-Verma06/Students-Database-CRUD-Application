@@ -39,3 +39,4 @@ async def ask_question(request: AIQueryRequest, db: Session = Depends(get_db)):
 )
 async def check_ai_status():
     return await ollama_service.check_health()
+

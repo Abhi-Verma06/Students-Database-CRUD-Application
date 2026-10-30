@@ -104,3 +104,4 @@ def delete_student(db: Session, db_student: Student) -> None:
 def get_all_students(db: Session) -> List[Student]:
     """Retrieve all student records without pagination (used for AI grounding context)."""
     return db.query(Student).order_by(Student.student_id.asc()).all()
+

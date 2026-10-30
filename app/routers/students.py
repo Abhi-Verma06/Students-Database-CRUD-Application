@@ -166,3 +166,4 @@ def delete_student(student_id: str, db: Session = Depends(get_db)):
         "message": f"Student with ID '{student_id}' has been permanently deleted.",
         "student_id": student_id
     }
+

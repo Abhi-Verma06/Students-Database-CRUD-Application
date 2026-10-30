@@ -87,3 +87,4 @@ class AIQueryResponse(BaseModel):
     model_used: str
     ollama_status: str
     grounded: bool
+

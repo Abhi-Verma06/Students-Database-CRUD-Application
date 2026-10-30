@@ -91,3 +91,4 @@ def health_check():
         "database": "SQLite connected",
         "version": settings.APP_VERSION
     }
+

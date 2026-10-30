@@ -33,3 +33,4 @@ class Student(Base):
 
     def __repr__(self) -> str:
         return f"<Student(student_id='{self.student_id}', name='{self.name}', course='{self.course}')>"
+
