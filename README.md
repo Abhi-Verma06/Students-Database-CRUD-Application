@@ -431,4 +431,5 @@ tests/test_students.py::test_ai_ask_endpoint_born_after_fallback PASSED
 
 #   S t u d e n t s - D a t a b a s e - C R U D - A p p l i c a t i o n  
  #   S t u d e n t s - D a t a b a s e - C R U D - A p p  
+ #   S t u d e n t s - D a t a b a s e - C R U D - A p p l i c a t i o n  
  
